@@ -1,0 +1,10 @@
+name: student_score_calculator
+description: A command-line student score calculator application built with Flutter/Dart.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dev_dependencies:
+  lints: ^2.1.0

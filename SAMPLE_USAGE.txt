@@ -1,0 +1,100 @@
+// Sample usage guide for Student Score Calculator
+// This file shows example commands to test the application
+
+SAMPLE TEST SCENARIO:
+====================
+
+1. ADD STUDENTS
+   Choice: 1
+   ID: S001
+   Name: Alice Johnson
+
+   Choice: 1
+   ID: S002
+   Name: Bob Smith
+
+   Choice: 1
+   ID: S003
+   Name: Charlie Brown
+
+2. ADD SCORES FOR ALICE
+   Choice: 2
+   Student ID: S001
+   Subject: Mathematics
+   Score: 92
+   Weight: 30
+
+   Choice: 2
+   Student ID: S001
+   Subject: English
+   Score: 88
+   Weight: 35
+
+   Choice: 2
+   Student ID: S001
+   Subject: Science
+   Score: 95
+   Weight: 35
+
+3. ADD SCORES FOR BOB
+   Choice: 2
+   Student ID: S002
+   Subject: Mathematics
+   Score: 78
+   Weight: 30
+
+   Choice: 2
+   Student ID: S002
+   Subject: English
+   Score: 85
+   Weight: 35
+
+   Choice: 2
+   Student ID: S002
+   Subject: Science
+   Score: 82
+   Weight: 35
+
+4. ADD SCORES FOR CHARLIE
+   Choice: 2
+   Student ID: S003
+   Subject: Mathematics
+   Score: 88
+   Weight: 30
+
+   Choice: 2
+   Student ID: S003
+   Subject: English
+   Score: 92
+   Weight: 35
+
+   Choice: 2
+   Student ID: S003
+   Subject: Science
+   Score: 85
+   Weight: 35
+
+5. VIEW INDIVIDUAL STUDENT DETAILS
+   Choice: 3
+   Student ID: S001
+   (Shows Alice's detailed score breakdown)
+
+6. VIEW ALL STUDENTS
+   Choice: 4
+   (Shows table with all students ranked by score)
+
+7. VIEW CLASS STATISTICS
+   Choice: 5
+   (Shows class average, top/bottom students, subject averages)
+
+8. VIEW GRADE DISTRIBUTION
+   Choice: 6
+   (Shows distribution chart)
+
+9. EXPECTED RESULTS:
+   Alice Total: (92*0.30 + 88*0.35 + 95*0.35) / 100 = 91.0 → Grade A, GPA 4.0
+   Bob Total: (78*0.30 + 85*0.35 + 82*0.35) / 100 = 81.85 → Grade B, GPA 3.0
+   Charlie Total: (88*0.30 + 92*0.35 + 85*0.35) / 100 = 88.4 → Grade B, GPA 3.0
+   Class Average: 87.08
+   Top Student: Alice Johnson (91.0)
+   Bottom Student: Bob Smith (81.85)
