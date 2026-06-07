@@ -1,0 +1,16 @@
+name: ostad_course_with_bd_apps
+description: A sample Flutter app that shows an image from assets
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/resource.jpeg

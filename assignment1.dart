@@ -13,8 +13,8 @@ void main() {
     stdout.write("Name: ");
     String name = stdin.readLineSync()!;
 
-    stdout.write("Details/About: ");
-    String details = stdin.readLineSync()!;
+    stdout.write("Department(details): ");
+    String department = stdin.readLineSync()!;
 
     stdout.write("Present Address: ");
     String presentAddress = stdin.readLineSync()!;
@@ -40,7 +40,7 @@ void main() {
 
     Map<String, dynamic> student = {
       "Name": name,
-      "Details": details,
+      "Department(details)": department,
       "Present Address": presentAddress,
       "Permanent Address": permanentAddress,
       "Contact Number": contact,
