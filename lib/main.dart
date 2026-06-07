@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ostad_course_with_bd_apps/learning_page.dart';
+import 'package:ostad_course_with_bd_apps/home_selector.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Image Demo',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const ImagePage(),
+      home: const HomeSelector(),
     );
   }
 }
