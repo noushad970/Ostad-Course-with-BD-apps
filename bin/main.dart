@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ostad_course_with_bd_apps/learning_page.dart';
+import 'package:ostad_course_with_bd_apps/pages/learning_page.dart';
 
 void main() {
   runApp(const MyApp());

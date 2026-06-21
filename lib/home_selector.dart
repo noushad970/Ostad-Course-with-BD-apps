@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ostad_course_with_bd_apps/learning_page.dart';
-import 'package:ostad_course_with_bd_apps/profile.dart';
+import 'package:ostad_course_with_bd_apps/pages/learning_page.dart';
+import 'package:ostad_course_with_bd_apps/pages/profile.dart';
 import 'package:ostad_course_with_bd_apps/quiz_page.dart';
 
 class HomeSelector extends StatelessWidget {
